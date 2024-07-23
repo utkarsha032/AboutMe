@@ -45,7 +45,25 @@ section {
 
 #home {
     background: linear-gradient(to right, #87CEEB, #F0F8FF); /* Sky Blue to Cloud White gradient */
-    color: #333;
+    color: #333; /* Text color */
+    padding: 60px 20px; /* Adjusted padding */
+    text-align: center; /* Center-align text */
+}
+
+#home h1 {
+    font-size: 2.5em; /* Larger font size for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+#home p {
+    font-size: 1.2em; /* Slightly larger font size for readability */
+    line-height: 1.6; /* Improved line spacing for readability */
+    margin: 20px 0; /* Space above and below paragraphs */
+}
+
+#home p:first-of-type {
+    font-weight: bold; /* Make the fascinating fact stand out */
+    color: #2E8B57; /* Seafoam Green for emphasis */
 }
 
 #about {
@@ -202,4 +220,5 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
 
