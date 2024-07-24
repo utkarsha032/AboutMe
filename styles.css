@@ -214,6 +214,44 @@ section {
     background: #1e6f46; /* Darker Seafoam Green */
 }
 
+/* Styles for the Create Your Own Website section */
+#create {
+    background-color: #F0F8FF; /* Cloud White */
+    padding: 60px 20px; /* Adjust the padding as needed */
+    text-align: left; /* Align text to the left */
+}
+
+#create h2 {
+    font-size: 2em; /* Adjust the font size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Text color */
+}
+
+#create p,
+#create ol {
+    font-size: 1.2em; /* Adjust the font size for readability */
+    line-height: 1.6; /* Improved line spacing for readability */
+    color: #333; /* Text color */
+}
+
+#create ol {
+    padding-left: 20px; /* Add padding to the left for the ordered list */
+}
+
+#create ol li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#create a {
+    color: #2E8B57; /* Seafoam Green for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+}
+
+#create a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 footer {
     background: #87CEEB; /* Sky Blue */
     color: #fff;
