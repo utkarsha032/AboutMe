@@ -20,9 +20,7 @@
                 <li><a href="#resources">Resources</a></li>
                 <li><a href="#profiles">Profiles</a></li>
                 <li><a href="#create">Create Your Own Website</a></li>
-                <!--
                 <li><a href="#contact">Contact</a></li>
-                -->
             </ul>
         </nav>
     </header>
@@ -80,25 +78,6 @@
             <li><a href="https://www.coursera.org/" target="_blank">Coursera</a> - Online courses from top universities and companies.</li>
         </ul>
     </section>
-
-    <section id="profiles">
-        <h2>My Profiles</h2>
-        <p>Connect with me on the following platforms:</p>
-        <div class="social-buttons">
-            <a href="https://github.com/utkarsha032" target="_blank" class="social-button">
-                <i class="fab fa-github"></i> GitHub
-            </a>
-            <a href="https://www.linkedin.com/in/utkarsha-vishwakarma-818920285/" target="_blank" class="social-button">
-                <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://codeforces.com/profile/utkarsha200317" target="_blank" class="social-button">
-                <i class="fab fa-codeforces"></i> Codeforces
-            </a>
-            <a href="https://www.instagram.com/yuviiiie/" target="_blank" class="social-button">
-                <i class="fab fa-instagram"></i> Instagram
-            </a>
-        </div>
-    </section>
     
     <section id="create">
         <h2>Create Your Own Website</h2>
@@ -116,7 +95,26 @@
         <p>Happy coding! If you have any questions or need guidance, feel free to reach out to me.</p>
     </section>
 
-    <!--
+     <section id="profiles">
+        <h2>My Profiles</h2>
+        <p>Connect with me on the following platforms:</p>
+        <div class="social-buttons">
+            <a href="https://github.com/utkarsha032" target="_blank" class="social-button">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/utkarsha-vishwakarma-818920285/" target="_blank" class="social-button">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://codeforces.com/profile/utkarsha200317" target="_blank" class="social-button">
+                <i class="fab fa-codeforces"></i> Codeforces
+            </a>
+            <a href="https://www.instagram.com/yuviiiie/" target="_blank" class="social-button">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </div>
+    </section>
+
+    +
     <section id="contact">
         <h2>Contact</h2>
         <form id="contact-form" action="YOUR_SERVER_ENDPOINT" method="POST">
@@ -129,7 +127,30 @@
             <button type="submit">Send</button>
         </form>
     </section>
-   -->
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("topBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
 
     <!-- Existing content -->
 
@@ -141,8 +162,17 @@
     <!-- Existing content -->
 
     <footer>
-        <p>&copy; 2024 Utkarsha Vishwakarma. All rights reserved.</p>
-    </footer>
+    <div class="footer-links">
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#resources">Resources</a> |
+        <a href="#profiles">Profiles</a> |
+        <a href="#create">Create Your Own Website</a>
+    </div>
+    <p>&copy; 2024 Utkarsha Vishwakarma. All rights reserved.</p>
+</footer>
 
     <script src="script.js"></script>
 </body>
