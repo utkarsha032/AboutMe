@@ -75,7 +75,7 @@ section {
 }
 
 .project {
-    background: #fff;
+    background: #FFFAF0;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
@@ -235,7 +235,7 @@ section {
 }
 
 #create ol {
-    padding-left: 0px; /* Add padding to the left for the ordered list */
+    padding-left: 10px; /* Add padding to the left for the ordered list */
 }
 
 #create ol li {
